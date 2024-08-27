@@ -1,0 +1,214 @@
+﻿@font-face{
+	font-family: "sahel";
+	src: url(fonts/Sahel-FD-WOL.eot) format("eot"),url(fonts/Sahel-FD-WOL.ttf) format("truetype"),url(fonts/Sahel-FD-WOL.woff) format("woff");
+}
+html{
+  font-size: 62.5%;
+}
+
+body{
+	direction: rtl;
+	font-family: "sahel";
+	font-size: 1rem;
+}
+li{
+	list-style: none;
+    display: inline-block;
+}
+a{
+  text-decoration: none;
+}
+
+.menu {
+  padding: 10px;
+   font-size: 1.5rem;
+  background-color: #FFFAFA;
+}
+  .menu .iconbar  li{
+            margin: 10px;
+
+  }
+  .menu .iconbar li a{
+    font-size: 1.75rem;
+    color: #000;
+    padding: 5px;
+    border-radius: 50%;
+  }
+  .menu .iconbar li a:hover{
+    color:#4caf50;
+    
+  }
+
+  .menu .login{
+    float: left;
+      margin-top: 8px;
+       box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      padding: 5px;
+      border-radius: 5px;
+  }
+   .menu .login a{
+     color: #000;
+     font-size: 1.75rem;
+
+   }
+   .menu .login:hover{
+     background-color: #4caf50;
+   }
+      .carousel-item img{
+       min-height: 300px;
+       max-height: 301px;
+      }
+
+
+      .slider-section .carousel-indicators{
+        justify-content: left;
+      }
+
+      .hedphon{
+        padding: 5px;
+        position: relative;
+
+      }
+
+      .box{
+        position: relative;
+        padding: 5px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        margin: 5px;
+      }
+      .hedphon .h1-class{
+        margin-bottom: 30px;
+        font-size: 2rem;
+		
+      }
+	  .hedphon .h1-class::after{
+		  content:"";
+		  display:block;
+		  position:absolute;
+		  background-color:#7d7465;
+		  height:4px;
+		  width:7%;
+		  margin:5px;
+	  }
+       a.sabad {
+         display: table;
+         position: relative;
+         margin: 0 10px;
+
+color: #111;;
+z-index: 1;
+transition: all 0.7s ease;
+background-color:#4caf50;
+border-radius:50%;
+       }
+    a.sabad:hover{
+      padding-left: 32px;
+      background-color:#4caf50;
+      border-radius: 5px;
+    }
+
+     a.sabad:before{
+       content: "";
+       position: absolute;
+       top:10px;
+       left: 10px;
+
+     }
+       a.sabad:hover:before{
+       content: "خرید ";
+      font-family: 'FontAwesome';
+       width: 35px;
+       color:#000;
+       font-size: 1.3rem;
+       text-align: center;
+       font-weight: bold;
+       justify-content: center;
+     }
+             a.heart {
+         display: table;
+         position: relative;
+         margin: 0 10px;
+
+color: #111;;
+z-index: 1;
+transition: all 0.7s ease;
+background-color:#4caf50;
+border-radius:50%;
+       }
+         a.heart:hover{
+      padding-right: 28px;
+      background-color:#4caf50;
+      border-radius: 5px;
+    }
+
+     a.heart:before{
+       content: "";
+       position: absolute;
+       top:10px;
+       right: 10px;
+
+     }
+       a.heart:hover:before{
+       content: "علاقه ";
+      font-family: 'FontAwesome';
+       width: 30px;
+       color:#000;
+       font-size: 1.3rem;
+       text-align: center;
+       font-weight: bold;
+       justify-content: center;
+     }
+
+      .box .sujest{
+        position: absolute;
+        top:15px;
+        right: 5px;
+        background-color: orangered;
+        padding: 5px;
+        font-size: 1.25rem;
+        color: white;
+		border-radius:5px;
+      }
+	   .box .sujest:hover{
+		  background-color:#4caf50;
+		  color:#111;
+	   }
+	   
+        .box ul{
+           position: absolute;
+        top:18px;
+        left: 10px;
+        color: #ffeb3b;
+         padding: 5px;
+        font-size: 1.5rem;
+        }
+        .botom-box{
+          margin-top:10px;
+        }
+          .hedphon .box img{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+          }
+
+      .text{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-size: 1.5rem;
+      }
+      .gheymat{
+        float: right;
+          font-size: 1.25rem;
+      }
+      .i-class{
+        float: left;
+      }
+      .i-class i{
+        margin: 5px;
+        font-size: 1.5rem;
+        padding: 5px;
+      }
+      .mystar li i:hover{
+		  color:orange;
+	  }
